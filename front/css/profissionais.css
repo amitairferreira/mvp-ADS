@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(160, 231, 231);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(9, 157, 108);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #44c896; 
+}
+
+.pesquisa {
+    width: 35%;
+    margin: 50px auto;
+    background-color: rgb(87, 230, 182);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.pesquisa input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.pesquisa button {
+    background-color:  rgb(9, 157, 108);
+    color: #fff;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pesquisa button:hover {
+    background-color:  #44c896;
+}
+
+button {
+    background-color:  rgb(9, 157, 108);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  #44c896;
+}
+
+.profissionais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.profissional {
+    width: 45%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.profissional h2 {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.profissional p {
+    margin: 0;
+    position: relative;
+}
+
+.profissional button {
+    float: right;
+    bottom: 1px;
+    left: 600px;
+}
+
+.avaliacao {
+    position: absolute;
+    bottom: 70px;
+    right: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

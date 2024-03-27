@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profissionais</title>
+    <link rel="stylesheet" href="css/profissionais.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <h1>Psicologia Agora</h1>
+        <nav>
+            <ul>
+                <li><a href="pagina_inicial.html">Início</a></li>
+                <li><a href="consulta.html">Marque sua consulta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="pesquisa">
+            <form id="pesquisa-form" action="profissionais.html" method="get">
+                <input type="text" id="pesquisa" name="pesquisa" placeholder="Pesquise por nome, especialidade, localização...">
+                <button type="submit">🔍</button>
+            </form>
+        </section>
+
+        <section class="profissionais" id="profissionais"></section>
+    </main>
+
+    <footer>
+        <p>© 2024 Psicologia Agora. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/profissionais.js"></script>
+</body>
+</html>

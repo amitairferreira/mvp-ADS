@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(160, 231, 231);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(9, 157, 108);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #44c896; 
+}
+
+.consulta {
+    width: 35%;
+    margin: 50px auto;
+    background-color: rgb(87, 230, 182);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.consulta h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.form-group {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="datetime-local"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+input[type="datetime-local"] {
+    width: 95% !important;
+}
+
+button {
+    background-color:  rgb(9, 157, 108);
+    color: #fff;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:  #44c896;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(160, 231, 231);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(9, 157, 108);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #44c896; 
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(87, 230, 182);
+}
+
+.texto {
+    flex: 1;
+    color: #2a2a2a;
+}
+
+.texto button {
+    background-color: rgb(9, 157, 108);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.texto button:hover {
+    background-color: #44c896;
+}
+
+.foto img {
+    width: 200%; 
+    max-width: 400px; 
+    height: auto;
+}
+
+.h1 {
+    float: center !important;
+}
+
+.servicos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    background-color: rgb(160, 231, 231);
+    padding: 20px;
+}
+
+.servico {
+    width: 40%; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.servico h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.servico h3 {
+    color: #555;
+    font-size: 18px;
+}
+
+.servico ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.profissional {
+    width: 45%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+h5 {
+    margin-top: 2px;
+}
+
+.profissional h3 {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.profissional p {
+    margin: 0;
+    position: relative;
+}
+
+hr {
+    width: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
